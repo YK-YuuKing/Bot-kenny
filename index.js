@@ -10,7 +10,7 @@ const vk = new VK({
 const user = new VK({
 	token: process.env.TOKEN_USER
 });
-
+// 
 const utils = {
 	sp: (int) => {
 		int = int.toString();
